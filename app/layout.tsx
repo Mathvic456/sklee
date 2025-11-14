@@ -11,8 +11,9 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SKLEE - Premium Clothing Store",
   description: "Discover premium clothing at SKLEE. Fast, secure, and affordable shopping experience.",
-  generator: "v0.app",
+  generator: "",
   icons: {
+    
     icon: [
       {
         url: "/icon-light-32x32.png",

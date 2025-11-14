@@ -57,7 +57,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               value={quantity}
               onChange={(e) => setQuantity(Math.max(1, Number.parseInt(e.target.value) || 1))}
               onClick={(e) => e.stopPropagation()}
-              className="w-16 px-2 py-2 border border-neutral-300 rounded text-center text-sm"
+              className="w-16 px-2 py-2 border border-neutral-300 rounded text-center text-sm text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <button
               onClick={(e) => {
